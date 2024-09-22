@@ -16,9 +16,16 @@ In this project, I have written a Python script to explore the BikeShare data fo
 
 
 ### Files used
-* chicago.csv.
-* new_york_city.csv
-* and washington.csv.
+ There is Three files with the project: chicago.csv, new_york_city.csv, and washington.csv. each file contains the following coulmns:
+  * start Time
+  * End Time
+  * Trip Duration
+  * Start Station
+  * End Station
+  * User Type
+ Additionally, The Chicago and New York City files also have the following two columns:
+  * Gender
+  * Birth Year
 
 ### Credits
 * https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html
