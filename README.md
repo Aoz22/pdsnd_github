@@ -16,5 +16,8 @@ In this project, I have written a Python script to explore the BikeShare data fo
 * and washington.csv.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+* https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html
+* https://www.w3resource.com/pandas/series/series-dt-day_name.php
+* https://pandas.pydata.org/docs/reference/api/pandas.Series.value_counts.html
+* https://www.w3schools.com/python/pandas/ref_df_iloc.asp
 
