@@ -7,7 +7,8 @@
 Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+In this project, I have written a Python script to explore the BikeShare data for three major cities in the United States: Chicago, New York City, and Washington. This script extracts useful information by computing descriptive statistics. Additionally, the script provides an interactive experience by asking specific questions and taking raw input from the user based on those questions.
+
 
 ### Files used
 Include the files used
