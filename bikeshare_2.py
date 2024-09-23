@@ -19,7 +19,7 @@ def get_filters():
     city = input('Choose what city would you like to analyze [chicago , new york, washington]:').lower()
 
     while city not in CITY_DATA.keys():
-        print('invalid input please try again')
+        print('invalid input, please try again!')
         city = input('Choose what city would you like to analyze [chicago , new york, washington]:').lower()
 
     # get user input for month (all, january, february, ... , june)
@@ -28,7 +28,7 @@ def get_filters():
     month = input('Choose what month would you like to filter by, or "all" to apply no month filter [january , february , march , april , may , june]:').lower()
 
     while month not in months:
-        print('invalid input please try again')
+        print('invalid input, please try again!')
         month = input('Choose what month would you like to filter by, or "all" to apply no month filter [january , february , march , april , may , june]:').lower()
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
@@ -37,7 +37,7 @@ def get_filters():
     day = input('Choose what day would you like to filter by, or "all" to apply no day filter [monday , tuesday , wednesday , thursday , friday , saturday , sunday ]:').lower()
 
     while day not in days:
-        print('invalid input please try again')
+        print('invalid input, please try again!')
         day = input('Choose what day would you like to filter by, or "all" to apply no day filter [monday , tuesday , wednesday , thursday , friday , saturday , sunday ]:').lower()
 
     print('-'*40)
@@ -165,7 +165,7 @@ def print_raw_data(df):
     choice = input("Do you want to show 5 rows in the dataset (yes,no) ? ").lower()
 
     while choice != 'yes' and choice != 'no':
-        print("Invalid input. Please try again.")
+        print('invalid input, please try again!')
 
         choice = input("Do you want to show 5 rows in the dataset (yes,no) ? ").lower()
 
@@ -179,7 +179,7 @@ def print_raw_data(df):
         choice = input("Do you want to show first 5 rows in the dataset (yes,no) ?").lower()
 
         while choice != 'yes' and choice != 'no':
-            print("Invalid input. Please try again.")
+            print('invalid input, please try again!')
 
             choice = input("Do you want to show first 5 rows in the dataset (yes,no) ? ").lower()
 
@@ -199,7 +199,7 @@ def main():
 
         restart = input('\nWould you like to restart? Enter yes or no.\n').lower()
         while restart not in ['yes','no']:
-            print("Invalid input. Please try again.")
+            print('invalid input, please try again!')
             restart = input('\nWould you like to restart? Enter yes or no.\n').lower()
         if restart != 'yes':
             break
