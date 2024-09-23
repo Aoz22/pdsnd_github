@@ -169,7 +169,7 @@ def print_raw_data(df):
 
         choice = input("Do you want to show 5 rows in the dataset (yes,no) ? ").lower()
 
-
+    # Display 5 rows of data
     while choice == 'yes':
         end = index + 5
 
